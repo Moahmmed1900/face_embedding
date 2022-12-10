@@ -10,7 +10,7 @@ pip3 install dist\face_embedding-0.0.1.tar.gz"
 
 ## Usage
 
-```
+```python
 from face_embedding.face_image_processor import FaceImageProcessor
 from face_embedding.face_image_structures import *
 
