@@ -2,7 +2,7 @@
 Simple Wrapper to detect all faces in an image and extract their embeddings.
 
 ## Installation
-```code
+```sh
 git clone https://github.com/Moahmmed1900/face_embedding.git
 cd face_embedding
 pip3 install dist\face_embedding-0.0.1.tar.gz"
