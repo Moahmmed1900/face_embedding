@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: face-embedding
+Version: 0.0.1
+Summary: Simple Wrapper for Python DeepFace package.
+Author-email: Mohammed Nadershah <mohammed.a.nadershah@gmail.com>
+Project-URL: Homepage, https://github.com/Moahmmed1900/face_embedding
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# About
+Simple Wrapper to detect all faces in an image and extract their embeddings.
+
+# Installation
+1. pip3 install -r requirements.txt
+
+# Usage
+1. Create an object of face_embedding.FaceImageProcessor
+2. Then call process method.
+
+# Dependencies
+DeepFace: https://github.com/serengil/deepface
