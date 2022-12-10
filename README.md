@@ -1,12 +1,30 @@
-# About
+## About
 Simple Wrapper to detect all faces in an image and extract their embeddings.
 
-# Installation
-1. pip3 install -r requirements.txt
+## Installation
+```code
+git clone https://github.com/Moahmmed1900/face_embedding.git
+cd face_embedding
+pip3 install dist\face_embedding-0.0.1.tar.gz"
+```
 
-# Usage
-1. Create an object of face_embedding.FaceImageProcessor
-2. Then call process method.
+## Usage
 
-# Dependencies
-DeepFace: https://github.com/serengil/deepface
+```
+from face_embedding.face_image_processor import FaceImageProcessor
+from face_embedding.face_image_structures import *
+
+processor:FaceImageProcessor = FaceImageProcessor("./image_name.JPG")
+result:FaceImage = processor.process(FaceEmbedderTypes.FACENET512,
+                    [FaceAnalysisTypes.AGE,
+                    FaceAnalysisTypes.EMOTION,
+                    FaceAnalysisTypes.GENDER,
+                    FaceAnalysisTypes.RACE])
+```
+
+## Dependencies
+
+| Dependency | Version | Link |
+| ------ | ------ | ------ |
+| DeepFace | 0.0.75 | https://github.com/serengil/deepface
+| Tensorflow | 2.9.0 | https://tensorflow.org/install

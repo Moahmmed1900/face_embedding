@@ -1,9 +1,15 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "face_embedding"
+dependencies = [
+  "numpy==1.23.4",
+  "Pillow==9.3.0",
+  "tensorflow==2.9.0",
+  "deepface==0.0.75"
+]
 version = "0.0.1"
 authors = [
   { name="Mohammed Nadershah", email="mohammed.a.nadershah@gmail.com" },

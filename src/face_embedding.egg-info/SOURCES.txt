@@ -1,6 +1,8 @@
+.gitigonre
 LICENSE.txt
 README.md
 pyproject.toml
+src/face_embedding/.gitignore
 src/face_embedding/__init__.py
 src/face_embedding/face_image_processor.py
 src/face_embedding/face_image_structures.py
@@ -8,4 +10,5 @@ src/face_embedding/image_handler.py
 src/face_embedding.egg-info/PKG-INFO
 src/face_embedding.egg-info/SOURCES.txt
 src/face_embedding.egg-info/dependency_links.txt
+src/face_embedding.egg-info/requires.txt
 src/face_embedding.egg-info/top_level.txt
