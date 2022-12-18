@@ -22,6 +22,25 @@ result:FaceImage = processor.process(FaceEmbedderTypes.FACENET512,
                     FaceAnalysisTypes.RACE])
 ```
 
+## Enums
+'''python
+class FaceEmbedderTypes(str, Enum):
+    VGG = "VGG-Face"
+    FACENET = "facenet"
+    FACENET512 = "Facenet512"
+    OPENFACE = "OpenFace"
+    DEEPFACE = "DeepFace"
+    DEEPID = "DeepID"
+    DLIB = "Dlib"
+    ARCFACE = "ArcFace"
+    
+class FaceAnalysisTypes(str, Enum):
+    AGE = "age"
+    GENDER = "gender"
+    EMOTION = "emotion"
+    RACE = "race"
+'''
+
 ## Dependencies
 
 | Dependency | Version | Link |
